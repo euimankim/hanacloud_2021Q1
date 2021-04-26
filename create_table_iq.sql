@@ -35,3 +35,20 @@ CREATE TABLE WAREHOUSE_BIN
     W_GMT_OFFSET              DECIMAL(5,2)                  ,
     PRIMARY KEY (W_WAREHOUSE_SK)
 );
+
+CREATE TABLE USERDATA
+(
+	REGISTRATION_TIME     TIMESTAMP,
+	ID                    INTEGER,
+	FIRST_NAME            VARCHAR(50),
+	LAST_NAME             VARCHAR(50),
+	EMAIL                 VARCHAR(50),
+	GENDER                VARCHAR(10),
+	IP_ADDRESS            VARCHAR(50),
+	CC                    VARCHAR(50),
+	COUNTRY               VARCHAR(50),
+	BIRTHDATE             VARCHAR(50),
+	SALARY                DOUBLE,
+	TITLE                 VARCHAR(50),
+	COMMENTS              VARCHAR(500)
+);
